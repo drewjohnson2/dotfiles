@@ -1,0 +1,57 @@
+URxvt.font: xft:Terminus:size=11
+URxvt.internalBorder: 30
+URxvt.termName: rxvt-unicode-256color
+Xft.dpi: 170
+! special
+*.foreground:   #bfcadb
+*.background:   rgba:0c00/1000/1500/9A00
+*.cursorColor:  #bfcadb
+
+! black
+*.color0:       #151a21
+*.color8:       #810009
+
+! red
+*.color1:       #810009
+*.color9:       #ac3835
+
+! green
+*.color2:       #3f9691
+*.color10:      #a6a75d
+
+! yellow
+*.color3:       #f3dbb2
+*.color11:      #a38b54
+
+! blue
+*.color4:       #5a697e
+*.color12:      #7eb2eb
+
+! magenta
+*.color5:       #724d7c
+*.color13:      #ad9351
+
+! cyan
+*.color6:       #a5b5cc
+*.color14:      #f3dbb2
+
+! white
+*.color7:       #dde3eb
+*.color15:      #44938e
+
+! ------ Rofi ------ !
+rofi.color-enabled: true
+rofi.separator-style: solid
+!                                       Window            Border                 Separator
+rofi.color-window: argb:df292d37, argb:80000019, argb:CCac3835
+rofi.fullscreen: true
+rofi.padding: 600
+!                  Background       Foreground     Alt Background Highlight Bg   Highlight Fg
+rofi.color-normal: argb:00435e75, #ffffff, argb:00486883, argb:002C3E4F, argb:CCac3835
+rofi.color-active: argb:00435e75, #ffffff, argb:00486883, argb:002C3E4F, argb:D0734375
+rofi.color-urgent: argb:00435e75, #ffffff, argb:00486883, argb:002C3E4F, argb:D0734375
+
+
+rofi.lines: 5
+rofi.font: System San Francisco Display 20
+rofi.hide-scrollbar: true
